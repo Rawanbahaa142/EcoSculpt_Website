@@ -446,12 +446,15 @@ hr {
     margin: 15px 0;
 }
 
+<<<<<<< HEAD
 .services .card p {
     color: var(--text-color);
     font-size: 1rem;
     margin: 20px 0;
 }
 
+=======
+>>>>>>> b6480df557d0c1f94641f460523530578a0bb23c
 /* Pricing Section */
 .pricing {
     background-color: var(--background-color);
@@ -477,18 +480,30 @@ hr {
     max-width: 800px;
     margin: 0 auto 40px;
     line-height: 1.6;
+<<<<<<< HEAD
 }
 
 /* Pricing Cards Container */
 .pricing-table {
+=======
+  }
+
+  .pricing-table {
+>>>>>>> b6480df557d0c1f94641f460523530578a0bb23c
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+<<<<<<< HEAD
 }
 
 /* Each Card */
 .pricing-card {
+=======
+  }
+  
+  .pricing-card {
+>>>>>>> b6480df557d0c1f94641f460523530578a0bb23c
     background-color: var(--card-bg);
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -565,4 +580,8 @@ hr {
 
 .pricing-card button:hover {
     background-color: var(--background-color);
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> b6480df557d0c1f94641f460523530578a0bb23c
