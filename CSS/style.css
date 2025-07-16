@@ -420,186 +420,138 @@ hr {
     margin: 10px auto;
 }
 
-.services .cards .first-card{
+.services .cards .first-card {
     background-color: var(--btn-color);
 }
 
 .services .card {
-    width:30%;
+    width: 30%;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
     padding: 10px;
     margin: 25px 0;
 }
-    .services .card i {
-        color: var(--btn-color);
-        font-size: 2rem;
-        font-weight: bold;
-        margin: 15px 0;
-    }
 
-    .services .card h5 {
-        color: var(--text-color);
-        font-size: 2rem;
-        font-weight: bold;
-        margin: 15px 0;
-    }
+.services .card i {
+    color: var(--btn-color);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
 
-    .services .card p {
-        color: var(--text-color);
-        font-size: 1rem;
-        margin: 20px 0;
-    }
+.services .card h5 {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
 
-    /* Pricing Section */
-    /* .pricing {
-        background-color: var(--background-color);
-        padding: 15px 0;
-    }
-    .pricing .container {
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 25px auto;
-    }
-    .pricing .container h3 {
-        color: var(--text-color);
-        font-size: 3rem;
-        font-weight: bold;
-        margin-bottom: 25px;
-        text-align: center;
-        margin: auto;
-    }
-    .pricing .container p {
-        color: var(--text-color);
-        /* font-size: 1rem; 
-        margin: 15px 0;
-        text-align: center;
-        margin: auto;
-        width:60%;
-    }
-    .pricing .container .pricing-table{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        /* margin: 25px auto; 
-        border-radius: 10px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-        width:30%;
-        padding: 20px;
-    }
-    .pricing .container .pricing-table .top-card{
-        background-color: var(--btn-color);
-        color: var(--background-color);
-        padding: 20px;
-        border-radius: 10px;
-        width:100%;
-    }
-     */
+.services .card p {
+    color: var(--text-color);
+    font-size: 1rem;
+    margin: 20px 0;
+}
 
-
-     /* Pricing Section */
 /* Pricing Section */
 .pricing {
     background-color: var(--background-color);
     padding: 60px 0;
-  }
-  
-  .pricing .container {
+}
+
+.pricing .container {
     max-width: 1200px;
     margin: auto;
     padding: 0 15px;
     text-align: center;
-  }
-  
-  .pricing h3 {
+}
+
+.pricing h3 {
     color: var(--text-color);
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
-  }
-  
-  .pricing p {
+}
+
+.pricing p {
     color: var(--text-color);
     max-width: 800px;
     margin: 0 auto 40px;
     line-height: 1.6;
-  }
-  
-  /* Pricing Cards Container */
-  .pricing-table {
+}
+
+/* Pricing Cards Container */
+.pricing-table {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-  }
-  
-  /* Each Card */
-  .pricing-card {
+}
+
+/* Each Card */
+.pricing-card {
     background-color: var(--card-bg);
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     width: 300px;
     padding: 25px 20px;
     transition: transform 0.3s ease;
-  }
-  
-  .pricing-card:hover {
+}
+
+.pricing-card:hover {
     transform: translateY(-10px);
-  }
-  
-  .top-card {
+}
+
+.top-card {
     background-color: var(--btn-color);
     color: var(--card-bg);
     padding: 15px;
     border-radius: 10px 10px 0 0;
     margin: -25px -20px 20px -20px;
-  }
-  
-  .pricing-card h4 {
+}
+
+.pricing-card h4 {
     font-size: 1.5rem;
     margin: 5px 0;
-  }
-  
-  .pricing-card h5 {
+}
+
+.pricing-card h5 {
     font-size: 1rem;
     opacity: 0.9;
-  }
-  
-  .price {
+}
+
+.price {
     font-size: 2.5rem;
     color: var(--btn-color);
     margin: 20px 0 10px;
-  }
-  
-  .per-month {
+}
+
+.per-month {
     color: #777;
     margin-bottom: 20px;
-  }
-  
-  .pricing-card ul {
+}
+
+.pricing-card ul {
     list-style: none;
     text-align: left;
     padding-left: 0;
     margin-bottom: 20px;
-  }
-  
-  .pricing-card ul li {
+}
+
+.pricing-card ul li {
     margin: 10px 0;
     color: var(--text-color);
     position: relative;
     padding-left: 30px;
-  }
-  
-  .pricing-card ul li i {
+}
+
+.pricing-card ul li i {
     color: var(--btn-color);
     position: absolute;
     left: 0;
     top: 2px;
-  }
-  
-  .pricing-card button {
+}
+
+.pricing-card button {
     background-color: var(--btn-color);
     color: var(--background-color);
     border: none;
@@ -609,8 +561,8 @@ hr {
     font-size: 1rem;
     cursor: pointer;
     transition: background 0.3s ease;
-  }
-  
-  .pricing-card button:hover {
+}
+
+.pricing-card button:hover {
     background-color: var(--background-color);
-  }
+}
